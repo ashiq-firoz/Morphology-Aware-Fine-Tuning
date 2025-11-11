@@ -4,6 +4,9 @@ Overview
 - This project implements a morphology-aware fine-tuning pipeline for seq2seq models (ByT5) on Hindi conversational / QA datasets.
 - It augments inputs with morphological variations and trains a multitask model that includes a morphological tagging head to improve morpho-syntactic robustness.
 
+## Huggingface URL
+- Try out the trained Hindi based Model through this link : https://huggingface.co/Edith08/byt5-hindi-morphaware
+
 Main components (from notebook)
 - Environment setup: installs transformers, datasets, stanza, indic-nlp-library, torch, evaluate, etc.
 - Dataset: uses `nvidia/ChatRAG-Hi` (config `inscit` by default) with fallback logic to combine configs or create a dummy dataset for testing.
